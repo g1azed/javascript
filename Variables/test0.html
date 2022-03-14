@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 변수 - 전역변수, 지역변수 </title>
+    <script>
+        num1 = 20;
+        console.log(num1);
+
+        num2 = "20";
+        console.log(num2);
+
+        console.log(num1+num2); // + 은 연산이 아닌 연결이 됐음 왜냐면 num2는 문자형이기 때문에 만약 둘다 숫자형이엇으면 연산잉 됬을것 
+
+
+        // 전역변수
+        var num = 20; //변수선언할때 var쓰는건 약속 but 생략도 가능해서 위에선 생략한것
+        console.log(num);
+
+        //함수 선언
+        function numPrint(){
+            console.log("함수내: " + num );    
+        }
+        //함수 호출
+        numPrint();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

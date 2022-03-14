@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 대화상자 </title>
+</head>
+<body>
+    <h1> 대화상자 쓰기 </h1>
+    <div id="nameText">   </div>
+
+    <script>
+        window.prompt("이름을 입력하세요","홍수지"); // 1번째 미션
+
+
+        /* console.log(name);
+        document.getElementById("name").innerText = name; */
+
+        var name = window.prompt("이름을 입력하세요","홍수지");
+        document.getElementById("nameText").innerText = name;
+
+        
+    </script>
+</body>
+</html>

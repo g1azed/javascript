@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 자바스크립트 적용위치 </title>
+
+    <script>
+        window.onload = function(){
+            document.getElementById(".mon").textContent("내일은 화요일");
+        }
+    </script>
+</head>
+<body>
+    <div id="mon"> 오늘은 월요일! </div>
+    <div id="tue"> 오늘은 화요일! </div>
+
+   <script>
+        window.onload = function(){
+            document.getElementById("tue").innerText = "내일은 화요일";
+        }
+    </script>
+</body>
+</html>
